@@ -61,9 +61,22 @@
                 </label>
               </div>
             </div>
-            <div class="footer text-center">
-              <button type="submit" class="btn btn-simple btn-primary btn-lg">Ingresar</a>
+            <div class="row">
+
+              <div class="col-sm-6">
+                <div class="footer text-center">
+                  <a href="{{url('/register')}}" class="btn btn-simple btn-info btn-lg">Registro</a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer text-center">
+                  <button type="submit" class="btn btn-simple btn-primary btn-lg">Ingresar</button>
+                </div>
+              </div>
             </div>
+
+
+
             <!--<a class="btn btn-link" href="{{ route('password.request') }}">
                 {{ __('Forgot Your Password?') }}
             </a>-->

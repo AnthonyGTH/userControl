@@ -29,4 +29,5 @@ class HomeController extends Controller
     public function view(){
       return view('auth.login');//Formulario de registro
     }
+
 }

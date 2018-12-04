@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.all')
 
 @section('title','Listado de productos')
 
@@ -6,7 +6,6 @@
 
 @section('content')
 
-<div class="main main-raised">
 	<div class="container">
 
 
@@ -56,7 +55,6 @@
 
 	</div>
 
-</div>
 
 
 
